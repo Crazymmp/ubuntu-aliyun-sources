@@ -5,12 +5,12 @@ ubuntu更换国内源（阿里云源）
 ### 安装
 - 方案1.shell命令一键更换
 ```shell script
-sudo curl -L https://github.com/AndyYoungDev/ubuntu-aliyun-sources/releases/download/shell/change.sh | bash
+sudo curl -L https://github.com/Crazymmp/ubuntu-aliyun-sources/releases/download/shell/change.sh | bash
 ```
 
 - 方案2.shell命令安装
 ```shell script
-sudo wget https://github.com/AndyYoungDev/ubuntu-aliyun-sources/releases/download/shell/change.sh
+sudo wget https://github.com/Crazymmp/ubuntu-aliyun-sources/releases/download/shell/change.sh
 
 sudo chmod a+x change.sh
 
@@ -27,5 +27,5 @@ ubuntu 18.04 请使用sources1804.list
 
 
 ### 联系
-* 微信：ylf283598349
-* 希望和github的老哥们多多交流
+* 微信：NA
+* 希望多交流
