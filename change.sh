@@ -30,9 +30,9 @@ if [ $(id -u) -ne 0 ]; then
     exit 0
 fi
 #备份文件
-cp /etc/apt/sources1604.list /etc/apt/sources1604.list.bak
+cp /etc/apt/sources1804.list /etc/apt/sources1804.list.bak
 #替换服务器
-sed -i 's/http:\/\/archive.ubuntu.com/http:\/\/mirrors.aliyun.com/g' /etc/apt/sources1604.list
-sed -i 's/http:\/\/security.ubuntu.com/http:\/\/mirrors.aliyun.com/g' /etc/apt/sources1604.list
+sed -i 's/http:\/\/archive.ubuntu.com/http:\/\/mirrors.aliyun.com/g' /etc/apt/sources1804.list
+sed -i 's/http:\/\/security.ubuntu.com/http:\/\/mirrors.aliyun.com/g' /etc/apt/sources1804.list
 #更新源
 apt-get update
